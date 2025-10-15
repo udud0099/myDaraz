@@ -45,7 +45,7 @@ const Navbar = () => {
         // >
         //   <Image src={assets.user_icon} alt="user icon" />
         //   Sign Out   
-        // </button>
+        // </button>  
         <UserButton >
           <UserButton.MenuItems>
             <UserButton.Action label="Products" labelIcon={<BoxIcon />} onClick={()=> router.push("/all-products")} />
