@@ -3,14 +3,9 @@ import "./globals.css";
 import { AppContextProvider } from "@/context/AppContext";
 import { Toaster } from "react-hot-toast";
 
-import { type Metadata } from 'next'
+ 
 import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
+  ClerkProvider, 
 } from '@clerk/nextjs'
 
 const outfit = Outfit({ subsets: ['latin'], weight: ["300", "400", "500"] })
